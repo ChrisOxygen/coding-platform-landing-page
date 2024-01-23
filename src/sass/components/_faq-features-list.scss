@@ -1,0 +1,40 @@
+.faq-features-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 302px;
+    width: 100%;
+    z-index: 3;
+    margin-right: 20px;
+
+    &__item {
+        border-radius: 10px;
+        border: 1px solid #282A37;
+        background: var(--Black, #12141D);
+        padding: clamp(0.9rem, 1.846vw + 0.208rem, 1.5rem) clamp(1.8rem, 1.231vw + 1.338rem, 2.2rem);
+        color: var(--01, #FFF);
+
+        /* Inter/Semi Bold/16 */
+        font-family: Inter;
+        font-size: clamp(0.8rem, 1.28vw + 0.32rem, 1.6rem);
+        font-style: normal;
+        font-weight: 600;
+        line-height: clamp(0.6rem, 8vw - 2.4rem, 2.4rem);
+        /* 150% */
+        cursor: pointer;
+
+        &--active {
+            border-radius: 10px;
+            background: linear-gradient(99deg, #7967FF -4.39%, #D978BA 81.95%);
+        }
+    }
+
+    @media (max-width: 980px) {
+        flex-direction: row;
+        flex-wrap: wrap;
+        max-width: 100%;
+        width: 100%;
+        justify-content: center;
+    }
+
+}

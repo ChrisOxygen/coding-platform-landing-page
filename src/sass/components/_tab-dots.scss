@@ -1,0 +1,26 @@
+.tab-dots {
+    width: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.dot {
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 100px;
+
+    &--red {
+        background-color: #F23936;
+    }
+
+    &--yellow {
+        background-color: #FABB18;
+    }
+
+    &--green {
+        background-color: #45C646;
+    }
+}

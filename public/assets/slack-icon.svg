@@ -1,0 +1,25 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Item">
+<g id="Oval" filter="url(#filter0_d_1_1776)">
+<circle cx="64" cy="49" r="38" fill="white"/>
+<circle cx="64" cy="49" r="38" stroke="white" stroke-width="2"/>
+</g>
+<g id="slack-new-logo">
+<path id="Shape" fill-rule="evenodd" clip-rule="evenodd" d="M54.6433 32.9984C54.6417 30.7921 56.4272 29.0016 58.6335 29C60.8414 29.0033 62.6286 30.7937 62.627 33V36.9967H58.6351C56.4289 36.9951 54.6417 35.2046 54.6433 32.9984ZM47.9919 39.6645H58.6335C60.8398 39.6661 62.627 41.4566 62.6254 43.6645C62.627 45.8708 60.8398 47.6612 58.6335 47.6629H47.9902C45.7839 47.6596 43.9967 45.8691 44 43.6629C43.9984 41.4566 45.7856 39.6661 47.9919 39.6645Z" fill="#36C5F0"/>
+<path id="Shape_2" fill-rule="evenodd" clip-rule="evenodd" d="M73.2687 32.9984V43.6629C73.2703 45.8708 71.4831 47.6612 69.2768 47.6629C67.0705 47.6596 65.2833 45.8691 65.2866 43.6629V32.9984C65.285 30.7921 67.0722 29.0016 69.2784 29C71.4847 29.0033 73.2703 30.7937 73.2687 32.9984ZM79.9201 39.6645C82.1264 39.6661 83.9136 41.4566 83.912 43.6629C83.9136 45.8708 82.1264 47.6612 79.9201 47.6629H75.9283V43.6629C75.9266 41.4566 77.7138 39.6661 79.9201 39.6645Z" fill="#2EB67D"/>
+<path id="Shape_3" fill-rule="evenodd" clip-rule="evenodd" d="M79.9201 58.3255H69.2768C67.0705 58.3239 65.2849 56.5334 65.2866 54.3255C65.2849 52.1192 67.0721 50.3288 69.2784 50.3271H79.9217C82.128 50.3304 83.9152 52.1209 83.9119 54.3271C83.9136 56.5334 82.1264 58.3239 79.9201 58.3255ZM73.2686 64.9933C73.2703 67.1996 71.4831 68.99 69.2768 68.9916C67.0705 68.9884 65.2833 67.1979 65.2849 64.9933V60.9949H69.2768C71.4831 60.9965 73.2703 62.787 73.2686 64.9933Z" fill="#ECB22E"/>
+<path id="Shape_4" fill-rule="evenodd" clip-rule="evenodd" d="M47.9918 58.3258C45.7856 58.3242 43.9984 56.5337 44 54.3275C43.9984 52.1212 45.7856 50.3307 47.9918 50.3291H51.9837V54.3275C51.9853 56.5337 50.1981 58.3242 47.9918 58.3258ZM54.6433 64.992V54.3275C54.6417 52.1212 56.4272 50.3307 58.6351 50.3307C60.8414 50.334 62.6286 52.1245 62.6254 54.3307V64.9936C62.627 67.1999 60.8398 68.9903 58.6335 68.992C56.4272 68.9887 54.64 67.1982 54.6433 64.992Z" fill="#E01E5A"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_d_1_1776" x="0" y="0" width="128" height="128" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="15"/>
+<feGaussianBlur stdDeviation="12.5"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.06 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_1776"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_1776" result="shape"/>
+</filter>
+</defs>
+</svg>

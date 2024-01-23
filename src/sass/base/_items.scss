@@ -1,0 +1,185 @@
+.site-logo {
+    width: 190px;
+    height: 28.705px;
+    flex-shrink: 0;
+}
+
+.sp-logo {}
+
+.meet-chatbot {
+    margin-top: 50px;
+    display: flex;
+    height: 22px;
+    padding: 0px 20px 3px 0px;
+    align-items: center;
+    gap: 10px;
+
+    &__text {
+        color: #181818;
+        text-align: center;
+        font-family: Syne;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    &__icon {}
+}
+
+.blur-circle {
+    display: block;
+    position: absolute;
+
+    &--yellow {
+        top: -20px;
+        right: -36px;
+        width: 290px;
+        height: 290px;
+        flex-shrink: 0;
+        border-radius: 290px;
+        background: rgba(255, 201, 71, 0.81);
+        filter: blur(100px);
+
+    }
+
+    &--purple {
+        top: -57px;
+        right: -75px;
+        width: 287px;
+        height: 287px;
+        flex-shrink: 0;
+        border-radius: 287px;
+        background: rgba(78, 29, 239, 0.72);
+        filter: blur(100px);
+    }
+}
+
+
+.bg-circle {
+    display: block;
+    width: 196px;
+    height: 196px;
+    background-color: rgba(159, 54, 242, 0.70);
+    filter: blur(177px);
+    bottom: 23px;
+    right: 310px;
+    position: absolute;
+}
+
+.payment-icons {}
+
+.policy-text {
+    color: #181818;
+    text-align: center;
+    font-feature-settings: 'clig'off, 'liga'off;
+
+    /* Text/16px/Regular */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+}
+
+.floating-icon {
+    width: clamp(3rem, 7.36vw + 0.24rem, 7.6rem);
+    height: clamp(3rem, 7.36vw + 0.24rem, 7.6rem);
+    position: absolute;
+
+    z-index: 1;
+
+    &--trello {
+        left: 0;
+        top: clamp(5.2rem, 13.92vw - 0.02rem, 13.9rem);
+    }
+
+    &--shopify {
+        left: 118;
+        top: clamp(0.1rem, 1.76vw - 0.56rem, 1.2rem);
+    }
+
+    &--slack {
+        left: clamp(21.8rem, 13.92vw + 16.58rem, 30.5rem);
+        top: clamp(3.7rem, -4vw + 5.2rem, 1.2rem);
+    }
+
+    &--digitalocean {
+        left: clamp(6.6rem, 20.64vw - 1.14rem, 19.5rem);
+        top: clamp(6.4rem, 12vw + 1.9rem, 13.9rem);
+    }
+
+    &--ganalitics {
+        left: clamp(5.1rem, 14.72vw - 0.42rem, 14.3rem);
+        top: clamp(18.3rem, 14.4vw + 12.9rem, 27.3rem);
+    }
+
+    &--gdrive {
+        right: clamp(-0.5rem, 9.44vw - 4.04rem, 5.4rem);
+        bottom: clamp(1.7rem, 40.96vw - 13.66rem, 27.3rem);
+    }
+
+    &--dropbox {
+        right: clamp(8.8rem, 33.6vw - 3.8rem, 29.8rem);
+        bottom: clamp(3.2rem, 33.12vw - 9.22rem, 23.9rem);
+    }
+
+    &--sdot {
+        right: clamp(1.3rem, 25.6vw - 8.3rem, 17.3rem);
+        bottom: clamp(14.9rem, 11.04vw + 10.76rem, 21.8rem);
+    }
+
+    &--github {
+        right: clamp(16.4rem, -8.96vw + 19.76rem, 10.8rem);
+        bottom: clamp(0.1rem, 17.76vw - 6.56rem, 11.2rem);
+    }
+
+    &--notion {
+        right: clamp(3.7rem, -5.76vw + 5.86rem, 0.1rem);
+        top: clamp(2.7rem, 34.24vw - 10.14rem, 24.1rem);
+    }
+
+    &--asana {
+        right: clamp(32.5rem, -12.48vw + 37.18rem, 24.7rem);
+        top: clamp(26.2rem, -3.04vw + 27.34rem, 24.3rem);
+    }
+}
+
+
+.footer-logo {
+    width: 190px;
+    height: 28.705px;
+    flex-shrink: 0;
+}
+
+
+.footer-blur-circle {
+    display: block;
+    position: absolute;
+
+    &--yellow {
+        bottom: -41px;
+        left: -68px;
+        width: 171px;
+        height: 171px;
+        flex-shrink: 0;
+        border-radius: 171px;
+        background: rgba(255, 201, 71, 0.81);
+        filter: blur(100px);
+        z-index: 2;
+
+    }
+
+    &--purple {
+        bottom: 21px;
+        left: 14px;
+        width: 171px;
+        height: 171px;
+        flex-shrink: 0;
+        border-radius: 171px;
+        background: rgba(78, 29, 239, 0.72);
+        filter: blur(100px);
+        z-index: 1;
+    }
+}

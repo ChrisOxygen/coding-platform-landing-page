@@ -1,0 +1,55 @@
+.sub-form {
+    display: flex;
+    align-items: center;
+    position: relative;
+
+    &__input {
+        border-radius: 38px;
+        border: 1px solid #FFF;
+        background: var(--01, #FFF);
+
+        /* 1 */
+        box-shadow: 0px 4px 60px 0px rgba(40, 55, 79, 0.10);
+        color: #12141D;
+        font-family: Inter;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        /* 171.429% */
+
+        &::placeholder {
+            opacity: 0.5;
+        }
+
+        padding: 18px 20px;
+        width: 100%;
+
+
+    }
+
+    &__submit-btn {
+        display: flex;
+        padding: 17px 41px;
+
+        border-radius: 67px;
+        background: linear-gradient(97deg, #7967FF 8.55%, #D978BA 99.22%);
+
+        color: #FFF;
+        text-align: center;
+
+        /* Inter/Semi Bold/14 */
+        font-family: Inter;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 20px;
+        /* 142.857% */
+
+        z-index: 2;
+
+        position: absolute;
+        right: 6px;
+    }
+
+}

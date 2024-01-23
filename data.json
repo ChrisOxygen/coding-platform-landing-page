@@ -1,0 +1,41 @@
+{
+  "menuTabs": ["home", "about", "blog"],
+  "socialLogos": [
+    "Google-logo",
+    "Disney-logo",
+    "Netflix-logo",
+    "Dropbox-logo",
+    "Spotify-logo"
+  ],
+  "features": [
+    {"icon":"Icon-toa", "title": "Thousands of apps", "desc": "Excepteur sint occaecat cupidat non proident sunt in id est enime."},
+    {"icon":"Icon-cp", "title": "Countless plugins", "desc": "Excepteur sint occaecat cupidat non proident sunt in id est enime."},
+    {"icon":"Icon-fc", "title": "Full control", "desc": "Excepteur sint occaecat cupidat non proident sunt in id est enime."}
+  ],
+  "workFlow": {
+    "img": "workflow-img",
+    "workFlowFeatures":[
+      {
+        "title":"Realtime collaboration",
+        "desc": "All things starts with a homepage —  Get inspired without breaking your wallet with premium Figma and Sketch templates. Capitalize hanging fruit to identify a ballpark value added activity to beta test."
+      },
+      {
+        "title":"Custom integrations",
+        "desc": "All things starts with a homepage —  Get inspired without breaking your wallet with premium Figma and Sketch templates. Capitalize hanging fruit to identify a ballpark value added activity to beta test."
+      },
+      {
+        "title": "Expert Engineers",
+        "desc": "All things starts with a homepage —  Get inspired without breaking your wallet with premium Figma and Sketch templates. Capitalize hanging fruit to identify a ballpark value added activity to beta test."
+      }
+
+    ]
+  },
+  "faq": [
+    "All code autocomplete",
+    "Over 50 Languages",
+    "Availanle on all platform",
+    "Real-time code save",
+    "Built-in code debugger",
+    "Granular permission"
+  ]
+}

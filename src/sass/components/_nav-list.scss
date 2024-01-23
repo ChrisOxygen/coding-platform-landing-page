@@ -1,0 +1,29 @@
+.nav-list {
+    width: 227px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    @media (max-width: 800px) {
+        display: none;
+    }
+
+
+    &__item {
+        color: var(--Black, #12141D);
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        /* 150% */
+
+        &:hover {
+            cursor: pointer;
+            background: var(--Gradient, linear-gradient(91deg, #7967FF 70.08%, #D978BA 84.57%));
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    }
+}

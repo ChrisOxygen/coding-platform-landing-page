@@ -1,0 +1,23 @@
+<svg width="108" height="108" viewBox="0 0 108 108" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Item">
+<g id="Oval" filter="url(#filter0_d_1_1804)">
+<circle cx="54" cy="41" r="32" fill="white"/>
+<circle cx="54" cy="41" r="32" stroke="white" stroke-width="1.68421"/>
+</g>
+<g id="invision-studio-small">
+<path id="Path" d="M36 23H72V59H36V23Z" fill="#E74969"/>
+<path id="Shape" fill-rule="evenodd" clip-rule="evenodd" d="M56.5697 47.7829C58.1349 48.1218 59.5282 48.4234 59.5282 49.8131C59.5282 50.9861 58.5052 51.6281 56.7352 51.6281C54.9817 51.6281 54.0502 50.6936 53.9587 49.3001H51.7665C51.8392 51.4263 53.1727 53.6253 56.625 53.6253C59.73 53.6253 61.776 52.0856 61.776 49.7216C61.776 46.7321 59.3658 46.1912 57.314 45.7307C55.7933 45.3894 54.4695 45.0923 54.4695 43.8753C54.4695 42.7203 55.401 42.0791 56.9167 42.0791C58.5787 42.0791 59.4375 43.1051 59.4555 44.3883H61.629C61.5742 41.9508 59.9662 40.0811 56.916 40.0811C54.03 40.0811 52.2765 41.8593 52.2765 43.9301C52.2765 46.8535 54.5641 47.3487 56.5697 47.7829ZM66.6817 50.8488H63.9045V53.6261H66.6817V50.8488Z" fill="white"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_d_1_1804" x="0.157898" y="0.157715" width="107.684" height="107.685" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="13"/>
+<feGaussianBlur stdDeviation="10.5"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.06 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_1804"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_1804" result="shape"/>
+</filter>
+</defs>
+</svg>

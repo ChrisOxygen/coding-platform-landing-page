@@ -1,0 +1,25 @@
+.features-desc-list {
+    display: flex;
+    flex-direction: column;
+    z-index: 3;
+
+
+    &__item {
+        display: flex;
+        border-top: 1px solid #313342;
+        padding: 20px 0;
+
+
+
+
+        color: var(--01, #FFF);
+
+        /* Inter/Semi Bold/18 */
+        font-family: Inter;
+        font-size: clamp(0.8rem, 3.077vw - 0.354rem, 1.8rem);
+        font-style: normal;
+        font-weight: 600;
+        line-height: clamp(1.4rem, 4.923vw - 0.446rem, 3rem);
+        /* 166.667% */
+    }
+}

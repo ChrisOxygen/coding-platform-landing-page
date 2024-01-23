@@ -1,0 +1,29 @@
+.open-close-indicator {
+    width: 18px;
+    height: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    // padding: 10px;
+
+    &--open {
+
+        .bar--2 {
+            transform: rotate(0deg);
+        }
+    }
+}
+
+.bar {
+    width: 100%;
+    height: 1.5px;
+    background-color: #181818;
+    border-radius: 4px;
+    position: absolute;
+    transition-duration: .3s;
+
+    &--2 {
+        transform: rotate(90deg);
+    }
+}
