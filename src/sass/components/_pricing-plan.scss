@@ -23,13 +23,13 @@
 
         /* Heading/05 */
         font-family: Syne;
-        font-size: 30px;
+        font-size: clamp(1.8rem, 1.92vw + 1.08rem, 3rem);
         font-style: normal;
         font-weight: 700;
-        line-height: 38px;
+        line-height: clamp(2.4rem, 2.24vw + 1.56rem, 3.8rem);
         /* 126.667% */
 
-        margin-bottom: 8px;
+        margin-bottom: clamp(0.6rem, 0.32vw + 0.48rem, 0.8rem);
     }
 
     &__desc {
@@ -39,10 +39,10 @@
 
         /* Text/18px/Regular */
         font-family: Inter;
-        font-size: 18px;
+        font-size: clamp(1.4rem, 0.64vw + 1.16rem, 1.8rem);
         font-style: normal;
         font-weight: 400;
-        line-height: 30px;
+        line-height: clamp(2.2rem, 1.28vw + 1.72rem, 3rem);
         /* 166.667% */
 
         margin-bottom: 24px;
@@ -50,14 +50,14 @@
 
     &__price {
         font-family: Syne;
-        font-size: 72px;
+        font-size: clamp(4rem, 5.12vw + 2.08rem, 7.2rem);
         font-style: normal;
         font-weight: 700;
-        line-height: 80px;
+        line-height: clamp(5.2rem, 4.48vw + 3.52rem, 8rem);
         /* 111.111% */
-        letter-spacing: -1px;
+        letter-spacing: clamp(0rem, -0.16vw + 0.06rem, -0.1rem);
 
-        margin-bottom: 48px;
+        margin-bottom: clamp(2.9rem, 3.04vw + 1.76rem, 4.8rem);
     }
 
     &__cta-btn {
@@ -75,12 +75,12 @@
 
         /* Button/Large */
         font-family: Syne;
-        font-size: 22px;
+        font-size: clamp(1.6rem, 0.96vw + 1.24rem, 2.2rem);
         font-style: normal;
         font-weight: 700;
         line-height: normal;
 
-        margin-top: 80px;
+        margin-top: clamp(5.6rem, 3.84vw + 4.16rem, 8rem);
     }
 
     &--featured {
@@ -117,7 +117,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 16px;
+    gap: clamp(1.2rem, 0.64vw + 0.96rem, 1.6rem);
     align-self: stretch;
 
     &__item {
@@ -138,10 +138,12 @@
 
         /* Text/22px/Regular */
         font-family: Inter;
-        font-size: 22px;
+        font-size: clamp(1.4rem, 1.28vw + 0.92rem, 2.2rem);
         font-style: normal;
         font-weight: 400;
-        line-height: 34px;
+        line-height: clamp(2.2rem,
+                1.92vw + 1.48rem,
+                3.4rem);
         /* 154.545% */
     }
 }

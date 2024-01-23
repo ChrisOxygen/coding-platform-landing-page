@@ -35,8 +35,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: clamp(4.4rem, 2.56vw + 3.44rem, 6rem);
-    height: 61px;
+    margin-top: clamp(1.8rem, 2.824vw + 0.741rem, 3rem);
+    height: clamp(3.7rem, 5.647vw + 1.582rem, 6.1rem);
     gap: clamp(1.2rem, 0.64vw + 0.96rem, 1.6rem);
 }
 
@@ -86,7 +86,7 @@
 
 .features-section {
     width: 100%;
-    margin-top: 116px;
+    margin-top: clamp(5.2rem, 10.08vw + 1.42rem, 11.5rem);
 
 
     .box-container {}
@@ -98,14 +98,14 @@
     align-items: center;
 
     &__title {
-        color: #181818;
+
         text-align: center;
-        font-feature-settings: 'clig'off, 'liga'off;
         font-family: Syne;
-        font-size: 48px;
+        font-size: clamp(2.6rem, 3.52vw + 1.28rem, 4.8rem);
         font-style: normal;
         font-weight: 700;
-        line-height: normal;
+        line-height: clamp(3.3rem, 4vw + 1.8rem, 5.8rem);
+        /* 120.833% */
         letter-spacing: -0.6px;
         max-width: 778px;
         width: 100%;
@@ -160,7 +160,7 @@
 
 .workflow-and-comm-section {
     width: 100%;
-    margin: 150px 0;
+    margin: clamp(7.2rem, 12.48vw + 2.52rem, 15rem) 0;
 
 }
 
@@ -291,7 +291,7 @@
 
 .faq-section {
     width: 100%;
-    margin-top: 130px;
+    margin-top: clamp(7.2rem, 9.28vw + 3.72rem, 13rem);
 
 
     .box-container {}
@@ -379,7 +379,7 @@
 
 .pricing-section {
     width: 100%;
-    margin-top: 150px;
+    margin-top: clamp(7.2rem, 12.48vw + 2.52rem, 15rem);
 
 
     .box-container {}
@@ -467,7 +467,7 @@
 
 .integrations-section {
     width: 100%;
-    margin-top: 147px;
+    margin-top: clamp(7.2rem, 12.48vw + 2.52rem, 15rem);
     position: relative;
     min-height: 337px;
     display: flex;
@@ -537,8 +537,8 @@
 
 .cta-section {
     width: 100%;
-    margin-top: 150px;
-    margin-bottom: 150px;
+    margin-top: clamp(7.2rem, 12.48vw + 2.52rem, 15rem);
+    margin-bottom: clamp(7.2rem, 12.48vw + 2.52rem, 15rem);
 
 
     .box-container {
