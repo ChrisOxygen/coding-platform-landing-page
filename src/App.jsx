@@ -1,5 +1,4 @@
-/* eslint-disable no-unused-vars */
-import { DataProvider, useData} from "./DataProvider";
+import { useData } from "./DataProvider";
 import FaqBlock from "./components/FaqBlock";
 import FeatureBox from "./components/FeatureBox";
 import SiteFooter from "./components/SiteFooter";
@@ -18,8 +17,7 @@ function App() {
   
   
   return (
-    <DataProvider>
-      
+    <>
       <main className="page-container">
         <div className="header-section">
           <div className="box-container">
@@ -39,7 +37,7 @@ function App() {
                   <span className="circle2" />
                   <span className="circle3" />
                   <img
-                    src=" /assets/Code-Playground-1.png"
+                    src="/assets/Code-Playground-1.png"
                     alt=""
                     className="hero-block-img__image"
                   />
@@ -85,7 +83,7 @@ function App() {
           <div className="workflow-and-comm-box-container">
             <div className="workflow-block">
               <img
-                src=" /assets/workflow-img.svg"
+                src="/assets/workflow-img.svg"
                 alt=""
                 className="workflow-block__image"
               />
@@ -97,7 +95,7 @@ function App() {
                 <button className="meet-chatbot">
                   <span className="meet-chatbot__text">Meet Our Chatbot</span>
                   <img
-                    src=" /assets/Icon-arrow-right.svg"
+                    src="/assets/Icon-arrow-right.svg"
                     alt=""
                     className="meet-chatbot__icon"
                   />
@@ -119,7 +117,7 @@ function App() {
                 </button>
               </div>
               <img
-                src=" /assets/communication-img.svg"
+                src="/assets/communication-img.svg"
                 alt=""
                 className="comm-block__image"
               />
@@ -157,7 +155,7 @@ function App() {
                   <ul className="detail-list">
                     <li className="detail-list__item">
                       <img
-                        src=" /assets/green-mark.svg"
+                        src="/assets/green-mark.svg"
                         alt=""
                         className="mark"
                       />
@@ -165,7 +163,7 @@ function App() {
                     </li>
                     <li className="detail-list__item">
                       <img
-                        src=" /assets/green-mark.svg"
+                        src="/assets/green-mark.svg"
                         alt=""
                         className="mark"
                       />
@@ -173,7 +171,7 @@ function App() {
                     </li>
                     <li className="detail-list__item">
                       <img
-                        src=" /assets/green-mark.svg"
+                        src="/assets/green-mark.svg"
                         alt=""
                         className="mark"
                       />
@@ -181,7 +179,7 @@ function App() {
                     </li>
                     <li className="detail-list__item">
                       <img
-                        src=" /assets/green-mark.svg"
+                        src="/assets/green-mark.svg"
                         alt=""
                         className="mark"
                       />
@@ -189,7 +187,7 @@ function App() {
                     </li>
                     <li className="detail-list__item">
                       <img
-                        src=" /assets/green-mark.svg"
+                        src="/assets/green-mark.svg"
                         alt=""
                         className="mark"
                       />
@@ -207,7 +205,7 @@ function App() {
                   <ul className="detail-list">
                     <li className="detail-list__item">
                       <img
-                        src=" /assets/white-mark.svg"
+                        src="/assets/white-mark.svg"
                         alt=""
                         className="mark"
                       />
@@ -215,7 +213,7 @@ function App() {
                     </li>
                     <li className="detail-list__item">
                       <img
-                        src=" /assets/white-mark.svg"
+                        src="/assets/white-mark.svg"
                         alt=""
                         className="mark"
                       />
@@ -223,7 +221,7 @@ function App() {
                     </li>
                     <li className="detail-list__item">
                       <img
-                        src=" /assets/white-mark.svg"
+                        src="/assets/white-mark.svg"
                         alt=""
                         className="mark"
                       />
@@ -231,7 +229,7 @@ function App() {
                     </li>
                     <li className="detail-list__item">
                       <img
-                        src=" /assets/white-mark.svg"
+                        src="/assets/white-mark.svg"
                         alt=""
                         className="mark"
                       />
@@ -239,7 +237,7 @@ function App() {
                     </li>
                     <li className="detail-list__item">
                       <img
-                        src=" /assets/white-mark.svg"
+                        src="/assets/white-mark.svg"
                         alt=""
                         className="mark"
                       />
@@ -257,7 +255,7 @@ function App() {
                   <ul className="detail-list">
                     <li className="detail-list__item">
                       <img
-                        src=" /assets/green-mark.svg"
+                        src="/assets/green-mark.svg"
                         alt=""
                         className="mark"
                       />
@@ -265,7 +263,7 @@ function App() {
                     </li>
                     <li className="detail-list__item">
                       <img
-                        src=" /assets/green-mark.svg"
+                        src="/assets/green-mark.svg"
                         alt=""
                         className="mark"
                       />
@@ -273,7 +271,7 @@ function App() {
                     </li>
                     <li className="detail-list__item">
                       <img
-                        src=" /assets/green-mark.svg"
+                        src="/assets/green-mark.svg"
                         alt=""
                         className="mark"
                       />
@@ -281,7 +279,7 @@ function App() {
                     </li>
                     <li className="detail-list__item">
                       <img
-                        src=" /assets/green-mark.svg"
+                        src="/assets/green-mark.svg"
                         alt=""
                         className="mark"
                       />
@@ -291,7 +289,7 @@ function App() {
                     </li>
                     <li className="detail-list__item">
                       <img
-                        src=" /assets/green-mark.svg"
+                        src="/assets/green-mark.svg"
                         alt=""
                         className="mark"
                       />
@@ -303,7 +301,7 @@ function App() {
               </div>
               <div className="pricing-block__footer-area">
                 <img
-                  src=" /assets/payment-icons.svg"
+                  src="/assets/payment-icons.svg"
                   alt=""
                   className="payment-icons"
                 />
@@ -318,57 +316,57 @@ function App() {
         <div className="integrations-section">
           <div className="box-container">
             <img
-              src=" /assets/trello-icon.svg"
+              src="/assets/trello-icon.svg"
               alt=""
               className="floating-icon floating-icon--trello"
             />
             <img
-              src=" /assets/shopify-icon.svg"
+              src="/assets/shopify-icon.svg"
               alt=""
               className="floating-icon floating-icon--shopify"
             />
             <img
-              src=" /assets/slack-icon.svg"
+              src="/assets/slack-icon.svg"
               alt=""
               className="floating-icon floating-icon--slack"
             />
             <img
-              src=" /assets/digital-ocean-icon.svg"
+              src="/assets/digital-ocean-icon.svg"
               alt=""
               className="floating-icon floating-icon--digitalocean"
             />
             <img
-              src=" /assets/google-analitics-icon.svg"
+              src="/assets/google-analitics-icon.svg"
               alt=""
               className="floating-icon floating-icon--ganalitics"
             />
             <img
-              src=" /assets/g-drive-icon.png"
+              src="/assets/g-drive-icon.png"
               alt=""
               className="floating-icon floating-icon--gdrive"
             />
             <img
-              src=" /assets/dropbox-icon.svg"
+              src="/assets/dropbox-icon.svg"
               alt=""
               className="floating-icon floating-icon--dropbox"
             />
             <img
-              src=" /assets/s-dot-icon.svg"
+              src="/assets/s-dot-icon.svg"
               alt=""
               className="floating-icon floating-icon--sdot"
             />
             <img
-              src=" /assets/github-icon.svg"
+              src="/assets/github-icon.svg"
               alt=""
               className="floating-icon floating-icon--github"
             />
             <img
-              src=" /assets/notion-icon.svg"
+              src="/assets/notion-icon.svg"
               alt=""
               className="floating-icon floating-icon--notion"
             />
             <img
-              src=" /assets/asana-icon.svg"
+              src="/assets/asana-icon.svg"
               alt=""
               className="floating-icon floating-icon--asana"
             />
@@ -382,7 +380,7 @@ function App() {
                   Browse all Software
                 </span>
                 <img
-                  src=" /assets/Icon-arrow-right.svg"
+                  src="/assets/Icon-arrow-right.svg"
                   alt=""
                   className="integrations-block__cta-btn__icon"
                 />
@@ -405,7 +403,7 @@ function App() {
       <SiteFooter/>
 
 
-    </DataProvider>
+    </>
   );
 }
 
